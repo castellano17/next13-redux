@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Proyecto Next.js v13
 
-## Getting Started
+Este proyecto fue creado utilizando Next.js v13. Aquí se abordan varios temas específicos de Next.js, siguiendo las mejores prácticas y aprovechando las características más recientes.
 
-First, run the development server:
+## Temas Puntuales
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. Metadata y Metatags
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Next.js permite gestionar fácilmente el SEO y la metadata de la aplicación. Para obtener más detalles, consulta la [documentación de Metadata en Next.js](https://nextjs.org/docs/api-reference/next/head).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. Layouts Anidados
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+El uso de layouts anidados es una práctica común en Next.js. Para obtener más información, revisa la sección de [Layouts en la documentación](https://nextjs.org/docs/basic-features/layouts).
 
-## Learn More
+### 3. Next/Link
 
-To learn more about Next.js, take a look at the following resources:
+Next.js proporciona una solución eficiente para la navegación entre páginas con `Next/Link`. Consulta la [documentación de Next/Link](https://nextjs.org/docs/api-reference/next/link) para obtener más detalles.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 4. Next/Image
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Optimiza el manejo de imágenes con el componente `Next/Image`. La [documentación de Next/Image](https://nextjs.org/docs/api-reference/next/image) te ofrece información detallada sobre su uso.
 
-## Deploy on Vercel
+### 5. Server Components
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Next.js v13 introduce los Server Components. Aprende sobre su implementación en la [documentación de Server Components](https://nextjs.org/docs/server-components/introduction).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 6. usePathname del lado del Cliente
+
+`usePathname` permite acceder al pathname del lado del cliente. Obtén más información en la [documentación de usePathname](https://nextjs.org/docs/basic-features/hooks#usepathname).
+
+### 7. Manejo de Estados
+
+Enfoca el manejo de estados del lado del cliente solo en lo estrictamente necesario. Para obtener información general, revisa la [documentación de manejo de estados en Next.js](https://nextjs.org/docs/basic-features/data-fetching#swr).
+
+### 8. Manejo de Data Fetching y Generación Dinámica
+
+Next.js facilita el manejo de la carga de datos y la generación dinámica de páginas. Consulta la [documentación de Data Fetching en Next.js](https://nextjs.org/docs/basic-features/data-fetching).
+
+### 9. Estados Globales y Redux
+
+Para la gestión de estados globales, considera la integración de Redux en tu aplicación Next.js. Puedes obtener detalles sobre cómo hacerlo en la [documentación de Integración de Redux](https://nextjs.org/docs/advanced-features/with-redux).
